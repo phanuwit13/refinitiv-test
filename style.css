@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px minmax(100px, 600px) 300px;
+  height: 100vh;
+  min-width: 600px;
+  overflow-x: scroll;
+}
+
+.item{
+  border:1px solid #000000
+}
